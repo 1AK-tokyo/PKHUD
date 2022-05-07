@@ -48,7 +48,7 @@ internal class ContainerView: UIView {
     internal func showFrameView() {
         layer.removeAllAnimations()
         frameView.center = calculateHudCenter()
-        frameView.alpha = 1.0
+        frameView.alpha = 0.8
         isHidden = false
     }
 
